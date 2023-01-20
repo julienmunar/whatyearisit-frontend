@@ -8,14 +8,6 @@
   </head>
   <body>
     <div id="year"></div>
-    <script>
-      fetch(
-        "https://whatyearisit-backend-6a9caga8r-julienmunar.vercel.app/year"
-      )
-        .then((res) => res.json())
-        .then(
-          (data) => (document.querySelector("#year").textContent = data.year)
-        );
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
